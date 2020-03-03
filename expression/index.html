@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zensar face recognition app</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/animate.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i" rel="stylesheet">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/query.css">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <!-- ################################################################################################ -->
+    <img class="logo" src="images/logo.png" alt="logo">
+     <a class="mobile-nav-icon js--nav-icon"><i class="ion-ios-more"></i></a>
+     <ul class="main-nav js--main-nav">
+
+
+
+    <nav id="mainav">
+      <ul class="clear">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a class="drop" href="#">Pages</a>
+          <ul>
+            <li><a href="pages/gallery.html">new page</a></li>
+            <li><a href="pages/full-width.html">new page</a></li>
+            <li><a href="pages/sidebar-left.html">new page</a></li>
+            <li><a href="pages/sidebar-right.html">new page</a></li>
+          </ul>
+        </li>
+
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" style="background-image:url(images/demo/slides/1.png)">
+  <div class="overlay" col-mod="">
+    <!-- ############################################################################################################# -->
+    <div id="intro">
+      <div class="txtblock">
+          <h1 class="uppercase"><span>Zensar Customer Portal </span></h1>
+        <h2 class="nospace push15 uppercase">TEXT HERE</h2>
+
+
+        <!-- #################################################################################################################
+               video console
+        ################################################################################################################# -->
+
+        <div id="console"></div>
+          <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+           <!-- Load index.js after the content of the page -->
+
+
+
+
+
+      </div>
+    </div>
+    <!-- ############################################################################################################# -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper">
+  <div id="hp_intro">
+    <!-- ############################################################################################################# -->
+    <ul class="nospace clear">
+      <li class="one_quarter first"><a href="#">
+        <div class="circle push30"><span class="icon-user"></span></div>
+        <h6 class="nospace">Face recognition</h6>
+        </a></li>
+      <li class="one_quarter"><a href="camera/events.html">
+        <div class="circle push30"><span class="icon-picture"></span></div>
+        <h6 class="nospace">picture recognition</h6>
+        </a></li>
+      <li class="one_quarter"><a href="#">
+        <div class="circle push30"><span class="icon-microphone"></span></div>
+        <h6 class="nospace">Speech recognition</h6>
+        </a></li>
+      <li class="one_quarter"><a href="#">
+        <div class="circle push30"><span class="icon-keyboard"></span></div>
+        <h6 class="nospace">Text recognition</h6>
+        </a></li>
+    </ul>
+    <!-- ############################################################################################################# -->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- #############################################################################################################
+<div class="app">
+    <h3>Add New Note</h3>
+    <div class="input-single">
+        <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+    </div>
+    <button id="start-record-btn" title="Start Recording">Start Recognition</button>
+    <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+    <button id="save-note-btn" title="Save Note">Save Note</button>
+    <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+
+    <h3>My Notes</h3>
+    <ul id="notes">
+        <li>
+            <p class="no-notes">You don't have any notes.</p>
+        </li>
+    </ul>
+
+</div>
+-->
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+
+<script src="https://static.opentok.com/v2/js/opentok.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
